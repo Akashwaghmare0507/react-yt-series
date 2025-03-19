@@ -10,7 +10,7 @@ import React, {useState}from 'react';
     <button className="border-1 border-slate-700 rounded sm"
      onClick={()=> setCounter(counter + 1)}
      >Click me</button>
-     <button className="ml-2 border-1 border-slate-700 rounded sm" 
+     <button className="ml-4 border-1 border-slate-700 rounded sm" 
      onClick={() => setCounter(0)}
      >
       Reset
